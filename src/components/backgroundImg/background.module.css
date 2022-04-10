@@ -1,0 +1,48 @@
+@media (min-width: 375px) {
+   .backgroundImg{
+      background-image: url(../../../public/bg-mobile-dark.jpg);
+      height:25%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      padding: 12% 5% 30% 6%;
+   }
+   
+   .title{
+      /* padding: 12% 10% 30% 5%; */
+      margin: 0px;
+      color:white;
+      font-weight: 700;
+      font-size: 30px;
+      
+   }
+   
+   .backgButton{
+   background:none;
+   height: 35px;
+   width: 25px;
+   border: none;
+   }
+ }
+ @media (min-width: 376px) and (max-width: 1440px) {
+   .backgroundImg{
+      background-image: url(../../../public/bg-desktop-dark.jpg);
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 10%;
+     
+   }
+   .title{
+      /* padding: 12% 10% 30% 5%; */
+      margin: 0px;
+      color:white;
+      font-weight: 700;
+      font-size: 50px;
+      background: red;
+      
+   }
+   
+ }
